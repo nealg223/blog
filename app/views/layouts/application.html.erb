@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Blog</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body style="background: #EEEEEE;">
-
-<%= yield %>
-
-</body>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Neal's Blog</title>
+      <%= render 'layouts/stylesheets' %>
+      <%= csrf_meta_tag %>
+  </head>
+    <body>
+      <%= yield %>
+    </body>
 </html>
