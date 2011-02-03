@@ -1,7 +1,7 @@
 #header {
 	margin-top: 0;
 	height: 30px;
-	background-color: #494949;
+	background-color: #CC0033;
 }
 
 #nav {
@@ -48,7 +48,7 @@
 }
 
 #contentBox {
-	height: 350px;
+	height: 345px;
 	background-image: url(photo1-fpo.jpg);
 	margin-top: 0;
 	-webkit-box-shadow: 2px 2px 5px #D4D4D4;
@@ -90,7 +90,7 @@
 #footer {
 	margin-top: 100px;
 	height: 30px;
-	background-color: #494949;
+	background-color: #CC0033;
 }
 
 
